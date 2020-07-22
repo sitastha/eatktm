@@ -1,0 +1,116 @@
+body{
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 14px;
+}
+
+.almrg{
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand i{
+	font-size: 30px;
+	color:#fff;
+}
+
+.navbar-brand p{
+	color: #932727;
+}
+
+.navbar-brand{
+	padding: 0;
+}
+
+.navbar-default{
+	background-color: black;
+	border-radius: none;
+	border: none;
+}
+
+.container-fluid{
+	background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #932727;
+}
+
+.main-body{
+	background-color: #000;
+	padding-top: 58px;
+}
+
+.container{
+	width:100%;
+	margin:0 auto;
+}
+
+.row{
+	margin:0;
+	padding:0;
+}
+
+.caption-holder{
+	vertical-align: middle;
+}
+
+.caption-holder p{
+	color:#fff;
+	text-align: center;
+	font-style: italic;
+	font-size:50px;
+	padding-top: 250px;
+}
+
+.banner{
+	background: url('../images/7.jpg');
+	height: 400px;
+	background-size:cover;
+	position: relative;
+}
+
+.social-media li {
+	display: inline;
+	font-size: 30px;
+	padding-left: 40px;
+	color:#000;
+}
+
+.social-media li a{
+	color: #000;
+}
+
+.social-media li:nth-child(3) a{
+	color:#fff;
+}
+
+.social-media li:nth-child(1){
+	padding-left: 0;
+}
+
+.social-media{
+	position: absolute;
+	top: 90px;
+}
+
+.banner-2{
+	margin-left: 0;
+}
+
+.info-section-1 p{
+	color:#fff;
+	font-size:20px;
+	padding-top:20px;
+}
+
+@media only screen and (max-width: 991px){
+	.caption-holder p{
+		font-size: 30px;
+		padding-top: 20px;
+	}
+}
+
